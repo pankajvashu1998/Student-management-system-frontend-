@@ -12,11 +12,6 @@ import Login from './Component/Login/Login'
 import ExamRegistration from './Component/ExamRegistration/ExamRegistration'
 import Result from './Component/Result/Result'
 import PdfDownload from './Component/PDF Downloads/PdfDownload'
-import Dashboard from './Component/Client Dashboard/Dashboard'
-import CourseInterestList from './Component/Student Course Interest List/CourseInterestList'
-import ExamRegistrationList from './Component/Student Exam Registration List/ExamRegistrationList'
-import StudentQuestionsList from './Component/Student Questions List/StudentQuestionsList'
-
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -33,11 +28,7 @@ createRoot(document.getElementById('root')).render(
           <Route path='students/exam-registration/form' element={<ExamRegistration/>}/>
           <Route path='students/results' element={<Result/>}/>
           <Route path='pdf/downloads' element={<PdfDownload/>}/>
-          <Route path='client/dashboard' element={<Dashboard/>}>
-              <Route path='students/course-interest/list' element={<CourseInterestList/>}/>
-              <Route path='students/exam-registration/list' element={<ExamRegistrationList/>}/>
-              <Route path='students/questions/list' element={<StudentQuestionsList/>}/>
-          </Route>
+        
         </Routes>
     </BrowserRouter>
   </StrictMode>,
