@@ -1,0 +1,3 @@
+export let content1 = "We are a global family with a proud heritage passionately committed to providing personal mobility for people around the world."
+
+export let content2 = "Our mission is to be the leading global innovator, developer and provider of cleaning, sanitation and maintenance products, systems, and services. As a team, we will achieve aggressive growth and fair return for our shareholders. We will accomplish this by exceeding the expectations of our customers while conserving resources and preserving the quality of the environment.."
